@@ -1,283 +1,256 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Deshi Deals | Home</title>
-    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon" />
 
-    <link rel="stylesheet" href="./style.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Deshi Deals | Home</title>
+  <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon" />
 
-    <link
-      href="https://cdn.jsdelivr.net/npm/daisyui@5"
-      rel="stylesheet"
-      type="text/css"
-    />
+  <link rel="stylesheet" href="./style.css" />
 
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-  </head>
-  <body class="work-sans">
-    <header>
-      <div>
-        <div class="flex justify-center items-center gap-2 shadow p-3">
-          <img src="./assets/logo.png" class="w-12" alt="" />
-          <div>
-            <h2 class="text-pink-600 leading-5">
-              Deshi <span class="font-bold">Deals</span>
-            </h2>
-            <p class="text-gray-400">Cheap Price , Best Quality</p>
-          </div>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="work-sans">
+  <header>
+    <div>
+      <div class="flex justify-center items-center gap-2 shadow p-3">
+        <img src="./assets/logo.png" class="w-12" alt="" />
+        <div>
+          <h2 class="text-pink-600 leading-5">
+            Deshi <span class="font-bold">Deals</span>
+          </h2>
+          <p class="text-gray-400">Cheap Price , Best Quality</p>
         </div>
       </div>
-    </header>
+    </div>
+  </header>
 
-    <main>
-      <section
-        id="banner"
-        class="bg-gradient-to-t from-[#f6ddea] to-[#ffffff] max-h-[760px]"
-      >
-        <div class="my-[120px] mx-auto">
-          <h1 class="font-bold text-center text-5xl">
-            Purchase TK 200 or above & get<br />
-            <span class="text-pink-600">20% off</span>
-          </h1>
-          <div class="flex justify-center items-center gap-5 mt-10">
-            <p class="text-[#111111] text-2xl font-medium">Use Promo Code</p>
-            <button
-              class="w-[270px] h-[70px] bg-pink-600 rounded-lg border-none text-white font-bold cursor-pointer"
-            >
-              SELL200
-            </button>
+  <main class="bg-gray-100">
+    <section id="banner" class="bg-gradient-to-t from-[#f6ddea] to-[#ffffff] max-h-[760px]">
+      <div class="my-[120px] mx-auto">
+        <h1 class="font-bold text-center text-5xl">
+          Purchase $ 15 or above & get<br />
+          <span class="text-pink-600">10% off</span>
+        </h1>
+        <div class="flex justify-center items-center gap-5 mt-10">
+          <p class="text-[#111111] text-2xl font-medium">Use Promo Code</p>
+          <button class="w-[270px] h-[70px] bg-pink-600 rounded-lg border-none text-white font-bold cursor-pointer">
+            SELL15
+          </button>
+        </div>
+        <img src="./assets/hero-bg.png" class="mx-auto" alt="" />
+      </div>
+    </section>
+
+    <section id="products-container" class="mt-36 pb-15 w-11/12 mx-auto grid grid-cols-12 gap-8">
+      <section id="product-box" class="col-span-9">
+        <!-- Kitchen -->
+
+        <div class="kitchen">
+          <h1 class="text-2xl font-bold my-5">Kitchenware</h1>
+
+          <div class="kitchen-items grid grid-cols-3 gap-8">
+            <!-- product cards 1 -->
+            <div class="card bg-base-100 shadow-sm">
+              <figure class="bg-gray-100 m-5">
+                <img src="./assets/kitchen-1.png" alt="Kitchen Accessories" class="rounded-xl py-5" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <p>⭐⭐⭐⭐⭐</p>
+                <h2 class="card-title text-[#111111]">Kitchen Accessories</h2>
+                <p class="text-[#11111180]">$<span>3.00</span></p>   
+              </div>
+               <div class="m-5">
+                  <button class="btn bg-pink-500 text-white btn-block">
+                    Add to Cart
+                  </button>
+                </div>
+             
+            </div>
+
+            <!-- product cards 2 -->
+            <div class="card bg-base-100 shadow-sm">
+              <figure class="bg-gray-100 m-5">
+                <img src="./assets/kitchen-2.png" alt="Kitchen Accessories" class="rounded-xl py-5" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <p>⭐⭐⭐⭐⭐</p>
+                <h2 class="card-title text-[#111111]">Kitchen Accessories</h2>
+                <p class="text-[#11111180]">$<span>5.00</span></p>
+              </div>
+              <div class="m-5">
+                  <button class="btn bg-pink-500 text-white btn-block">
+                    Add to Cart
+                  </button>
+                </div>
+            </div>
+
+            <!-- product cards 3 -->
+            <div class="card bg-base-100 shadow-sm">
+              <figure class="bg-gray-100 m-5">
+                <img src="./assets/kitchen-3.png" alt="Kitchen Accessories" class="rounded-xl py-5" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <p>⭐⭐⭐⭐⭐</p>
+                <h2 class="card-title text-[#111111]">Home Cooker</h2>
+                <p class="text-[#11111180]">$<span>8.00</span></p>
+              </div>
+              <div class="m-5">
+                  <button class="btn bg-pink-500 text-white btn-block">
+                    Add to Cart
+                  </button>
+                </div>
+            </div>
           </div>
-          <img src="./assets/hero-bg.png" class="mx-auto" alt="" />
+        </div>
+
+        <!-- Sports -->
+
+        <div class="Sportswear">
+          <h1 class="text-2xl font-bold my-5">Sportswear</h1>
+
+          <div class="sports-items grid grid-cols-3 gap-8">
+            <!-- product cards 1 -->
+            <div class="card bg-base-100 shadow-sm">
+              <figure class="bg-gray-100 m-5">
+                <img src="./assets/sports-1.png" alt="Sports Back Cap" class="rounded-xl py-5" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <p>⭐⭐⭐⭐⭐</p>
+                <h2 class="card-title text-[#111111]">Sports Back Cap</h2>
+                <p class="text-[#11111180]">$<span>2.50</span></p>
+              </div>
+              <div class="m-5">
+                <button class="btn bg-pink-500 text-white btn-block">
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+
+            <!-- product cards 2 -->
+            <div class="card bg-base-100 shadow-sm">
+              <figure class="bg-gray-100 m-5">
+                <img src="./assets/sports-2.png" alt="Full Jersey Set" class="rounded-xl py-5" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <p>⭐⭐⭐⭐⭐</p>
+                <h2 class="card-title text-[#111111]">Full Jersey Set</h2>
+                <p class="text-[#11111180]">$<span>8.00</span></p>
+              </div>
+              <div class="m-5">
+                <button class="btn bg-pink-500 text-white btn-block">
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+
+            <!-- product cards 3 -->
+            <div class="card bg-base-100 shadow-sm">
+              <figure class="bg-gray-100 m-5">
+                <img src="./assets/sports-3.png" alt="Sports cates" class="rounded-xl py-5" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <p>⭐⭐⭐⭐⭐</p>
+                <h2 class="card-title text-[#111111]">Sports cates</h2>
+                <p class="text-[#11111180]">$<span>25.00</span></p>
+              </div>
+              <div class="m-5">
+                <button class="btn bg-pink-500 text-white btn-block">
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Furniture  -->
+
+        <div class="funriture">
+          <h1 class="text-2xl font-bold my-5">Furniture</h1>
+
+          <div class="furniture-items grid grid-cols-3 gap-8">
+            <!-- product cards 1 -->
+            <div class="card bg-base-100 shadow-sm">
+              <figure class="bg-gray-100 m-5">
+                <img src="./assets/furniture-1.png" alt="Single Relax Chair" class="rounded-xl py-5" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <p>⭐⭐⭐⭐⭐</p>
+                <h2 class="card-title text-[#111111]">Single Relax Chair</h2>
+                <p class="text-[#11111180]">$<span>50.00</span></p>
+              </div>
+              <div class="m-5">
+                <button class="btn bg-pink-500 text-white btn-block">
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+
+            <!-- product cards 2 -->
+            <div class="card bg-base-100 shadow-sm">
+              <figure class="bg-gray-100 m-5">
+                <img src="./assets/furniture-2.png" alt="Children play" class="rounded-xl py-5" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <p>⭐⭐⭐⭐⭐</p>
+                <h2 class="card-title text-[#111111]">Children play</h2>
+                <p class="text-[#11111180]">$<span>78.00</span></p>
+              </div>
+              <div class="m-5">
+                <button class="btn bg-pink-500 text-white btn-block">
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+
+            <!-- product cards 3 -->
+            <div class="card bg-base-100 shadow-sm">
+              <figure class="bg-gray-100 m-5">
+                <img src="./assets/furniture-3.png" alt="Flexible Sofa" class="rounded-xl py-5" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <p>⭐⭐⭐⭐⭐</p>
+                <h2 class="card-title text-[#111111]">Flexible Sofa</h2>
+                <p class="text-[#11111180]">$<span>599.00</span></p>
+              </div>
+              <div class="m-5">
+                <button class="btn bg-pink-500 text-white btn-block">
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
-      <section
-        id="products-container"
-        class="my-36 w-11/12 mx-auto grid grid-cols-12 gap-8"
-      >
-        <section id="product-box" class="col-span-9">
-
-          <!-- Kitchen -->
-
-          <div class="kitchen">
-            <h1 class="text-2xl font-bold my-5">Kitchenware</h1>
-
-            <div class="kitchen-items grid grid-cols-3 gap-8">
-              <!-- product cards 1 -->
-              <div class="card bg-base-100 shadow-sm">
-                <figure class="bg-gray-100 m-5">
-                  <img
-                    src="./assets/kitchen-1.png"
-                    alt="Kitchen Accessories"
-                    class="rounded-xl py-5"
-                  />
-                </figure>
-                <div class="card-body items-center text-center">
-                  <p>⭐⭐⭐⭐⭐</p>
-                  <h2 class="card-title text-[#111111]">Kitchen Accessories</h2>
-                  <p class="text-[#11111180]">$<span>3.00</span></p>
-                  <div class="card-actions">
-                    <button class="btn bg-pink-500 text-white">
-                      Add to Cart
-                    </button>
-                  </div>
-                </div>
-              </div>
-
-              <!-- product cards 2 -->
-              <div class="card bg-base-100 shadow-sm">
-                <figure class="bg-gray-100 m-5">
-                  <img
-                    src="./assets/kitchen-2.png"
-                    alt="Kitchen Accessories"
-                    class="rounded-xl py-5"
-                  />
-                </figure>
-                <div class="card-body items-center text-center">
-                  <p>⭐⭐⭐⭐⭐</p>
-                  <h2 class="card-title text-[#111111]">Kitchen Accessories</h2>
-                  <p class="text-[#11111180]">$<span>5.00</span></p>
-                  <div class="card-actions">
-                    <button class="btn bg-pink-500 text-white">
-                      Add to Cart
-                    </button>
-                  </div>
-                </div>
-              </div>
-
-              <!-- product cards 3 -->
-              <div class="card bg-base-100 shadow-sm">
-                <figure class="bg-gray-100 m-5">
-                  <img
-                    src="./assets/kitchen-3.png"
-                    alt="Kitchen Accessories"
-                    class="rounded-xl py-5"
-                  />
-                </figure>
-                <div class="card-body items-center text-center">
-                  <p>⭐⭐⭐⭐⭐</p>
-                  <h2 class="card-title text-[#111111]">Home Cooker</h2>
-                  <p class="text-[#11111180]">$<span>8.00</span></p>
-                  <div class="card-actions">
-                    <button class="btn bg-pink-500 text-white">
-                      Add to Cart
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
+      <aside id="cart-box" class="col-span-3">
+        <div class="bg-white p-6 rounded-lg">
+          <h2 class="text-[#111111] font-semibold mb-5">Have A Coupon?</h2>
+          <div class="join">
+            <input class="input join-item" placeholder="Coupon code" />
+            <button class="btn join-item bg-pink-500 text-white rounded-r-xl">
+              Apply
+            </button>
           </div>
+        </div>
 
-          <!-- Sports -->
-
-          <div class="Sportswear">
-            <h1 class="text-2xl font-bold my-5">Sportswear</h1>
-
-            <div class="sports-items grid grid-cols-3 gap-8">
-              <!-- product cards 1 -->
-              <div class="card bg-base-100 shadow-sm">
-                <figure class="bg-gray-100 m-5">
-                  <img
-                    src="./assets/sports-1.png"
-                    alt="Sports Back Cap"
-                    class="rounded-xl py-5"
-                  />
-                </figure>
-                <div class="card-body items-center text-center">
-                  <p>⭐⭐⭐⭐⭐</p>
-                  <h2 class="card-title text-[#111111]">Sports Back Cap</h2>
-                  <p class="text-[#11111180]">$<span>2.50</span></p>
-                  <div class="card-actions">
-                    <button class="btn bg-pink-500 text-white">
-                      Add to Cart
-                    </button>
-                  </div>
-                </div>
-              </div>
-
-              <!-- product cards 2 -->
-              <div class="card bg-base-100 shadow-sm">
-                <figure class="bg-gray-100 m-5">
-                  <img
-                    src="./assets/sports-2.png"
-                    alt="Full Jersey Set"
-                    class="rounded-xl py-5"
-                  />
-                </figure>
-                <div class="card-body items-center text-center">
-                  <p>⭐⭐⭐⭐⭐</p>
-                  <h2 class="card-title text-[#111111]">Full Jersey Set</h2>
-                  <p class="text-[#11111180]">$<span>8.00</span></p>
-                  <div class="card-actions">
-                    <button class="btn bg-pink-500 text-white">
-                      Add to Cart
-                    </button>
-                  </div>
-                </div>
-              </div>
-
-              <!-- product cards 3 -->
-              <div class="card bg-base-100 shadow-sm">
-                <figure class="bg-gray-100 m-5">
-                  <img
-                    src="./assets/sports-3.png"
-                    alt="Sports cates"
-                    class="rounded-xl py-5"
-                  />
-                </figure>
-                <div class="card-body items-center text-center">
-                  <p>⭐⭐⭐⭐⭐</p>
-                  <h2 class="card-title text-[#111111]">Sports cates</h2>
-                  <p class="text-[#11111180]">$<span>25.00</span></p>
-                  <div class="card-actions">
-                    <button class="btn bg-pink-500 text-white">
-                      Add to Cart
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
+        <div class="cart bg-white mt-10 p-5">
+          <h2 class="font-bold">Cart</h2>
+          <div id="cart-container" class=""></div>
+          <div class="">
+            <h2 class="">Total Price: <span>0</span> TK</h2>
+            <h2 class="">Total Quantity: <span>0</span> Items</h2>
+            <h2 class="">Total: <span>0</span> TK</h2>
+            <button class="btn bg-pink-500 text-white btn-block mt-2">Make Purchase</button>
           </div>
+        </div>
+      </aside>
+    </section>
+  </main>
+</body>
 
-
-          <!-- Furniture  -->
-
-          <div class="funriture">
-            <h1 class="text-2xl font-bold my-5">Furniture</h1>
-
-            <div class="furniture-items grid grid-cols-3 gap-8">
-              <!-- product cards 1 -->
-              <div class="card bg-base-100 shadow-sm">
-                <figure class="bg-gray-100 m-5">
-                  <img
-                    src="./assets/furniture-1.png"
-                    alt="Single Relax Chair"
-                    class="rounded-xl py-5"
-                  />
-                </figure>
-                <div class="card-body items-center text-center">
-                  <p>⭐⭐⭐⭐⭐</p>
-                  <h2 class="card-title text-[#111111]">Single Relax Chair</h2>
-                  <p class="text-[#11111180]">$<span>50.00</span></p>
-                  <div class="card-actions">
-                    <button class="btn bg-pink-500 text-white">
-                      Add to Cart
-                    </button>
-                  </div>
-                </div>
-              </div>
-
-              <!-- product cards 2 -->
-              <div class="card bg-base-100 shadow-sm">
-                <figure class="bg-gray-100 m-5">
-                  <img
-                    src="./assets/furniture-2.png"
-                    alt="Children play"
-                    class="rounded-xl py-5"
-                  />
-                </figure>
-                <div class="card-body items-center text-center">
-                  <p>⭐⭐⭐⭐⭐</p>
-                  <h2 class="card-title text-[#111111]">Children play</h2>
-                  <p class="text-[#11111180]">$<span>78.00</span></p>
-                  <div class="card-actions">
-                    <button class="btn bg-pink-500 text-white">
-                      Add to Cart
-                    </button>
-                  </div>
-                </div>
-              </div>
-
-              <!-- product cards 3 -->
-              <div class="card bg-base-100 shadow-sm">
-                <figure class="bg-gray-100 m-5">
-                  <img
-                    src="./assets/furniture-3.png"
-                    alt="Flexible Sofa"
-                    class="rounded-xl py-5"
-                  />
-                </figure>
-                <div class="card-body items-center text-center">
-                  <p>⭐⭐⭐⭐⭐</p>
-                  <h2 class="card-title text-[#111111]">Flexible Sofa</h2>
-                  <p class="text-[#11111180]">$<span>599.00</span></p>
-                  <div class="card-actions">
-                    <button class="btn bg-pink-500 text-white">
-                      Add to Cart
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <aside id="cart-box" class="bg-green-100 col-span-3">
-          <h1>Cart</h1>
-        </aside>
-      </section>
-    </main>
-  </body>
 </html>
